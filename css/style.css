@@ -1,0 +1,180 @@
+/* global */
+input {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+
+/* header top */
+.header-top {
+  background-color: #e60e8b;
+  color: #ffffff;
+}
+
+.switch {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 45px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #cccccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 3px;
+  content: "";
+  height: 14px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 14px;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:checked + .slider:before {
+  transform: translateX(23px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* navbar */
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.logo {
+  max-width: 300px;
+}
+
+.navbar-search-form {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.navbar-search-form .form-box {
+  border-color: #d6d6d6 !important;
+  overflow-x: hidden !important;
+}
+
+.navbar-search-form .fa-search {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  color: #56a9df;
+}
+
+.v-line {
+  position: relative;
+}
+
+.v-line::after {
+  content: "";
+  position: absolute;
+  background-color: #e60e8b;
+  height: 100%;
+  width: 2px;
+  display: inline-block;
+}
+
+.navbar-search-form button {
+  background-color: #56a9df;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+/* nav right */
+.nav-right i {
+  font-size: 30px;
+}
+
+.nav-bar i.fa-user {
+  color: #f3e925;
+}
+
+.nav-bar i.fa-heart {
+  color: #e60e8b;
+}
+
+.nav-bar i.fa-cart-shopping {
+  color: #56a9df;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart .badge {
+  position: absolute;
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  right: -10px;
+}
+
+/* nav links */
+.nav-links {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1px;
+}
+
+.nav-links .nav-item {
+  text-align: center;
+  background-color: #56a9df;
+  color: #ffffff;
+}
+
+.nav-links .nav-item a::after {
+  display: none;
+}
+
+.nav-links .nav-item {
+  position: relative;
+}
+
+.nav-links .nav-item i {
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+}
