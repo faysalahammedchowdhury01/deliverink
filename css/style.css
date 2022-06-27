@@ -1,4 +1,8 @@
 /* global */
+body {
+  overflow-x: hidden !important;
+}
+
 input {
   box-shadow: none !important;
   outline: none !important;
@@ -70,21 +74,8 @@ input:checked + .slider:before {
 }
 
 /* navbar */
-
-.nav-bar {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  align-items: center;
-}
-
 .logo {
-  max-width: 300px;
-}
-
-.navbar-search-form {
-  grid-column-start: 2;
-  grid-column-end: 4;
+  width: 300px;
 }
 
 .navbar-search-form .form-box {
@@ -183,7 +174,7 @@ input:checked + .slider:before {
   font-size: 15px;
 }
 
-/* our qualities */
+/* our qualities area */
 .qualities .quality {
   background-color: #e6e6e6;
   text-align: center;
@@ -192,4 +183,14 @@ input:checked + .slider:before {
 .qualities .quality i {
   font-size: 40px;
   color: #ffffff;
+}
+
+/* brands area */
+.brands .col {
+  text-align: center;
+}
+
+.brands a img {
+  width: 120px;
+  margin: auto;
 }
