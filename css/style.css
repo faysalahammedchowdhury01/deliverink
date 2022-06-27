@@ -118,6 +118,10 @@ input:checked + .slider:before {
 }
 
 /* nav right */
+.nav-right p strong {
+  font-size: 15px;
+}
+
 .nav-right i {
   font-size: 30px;
 }
@@ -177,4 +181,15 @@ input:checked + .slider:before {
   left: 50%;
   transform: translateX(-50%);
   font-size: 15px;
+}
+
+/* our qualities */
+.qualities .quality {
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+.qualities .quality i {
+  font-size: 40px;
+  color: #ffffff;
 }
