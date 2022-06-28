@@ -304,3 +304,8 @@ input:checked + .slider:before {
   padding: 50px 0;
   background-color: #e6e6e6;
 }
+
+/* newsletter area */
+#newsletter-area {
+  padding: 50px 0;
+}
