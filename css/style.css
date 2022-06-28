@@ -289,7 +289,7 @@ input:checked + .slider:before {
   margin: auto;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 992px) {
   .product {
     margin-left: 0;
   }
