@@ -309,3 +309,43 @@ input:checked + .slider:before {
 #newsletter-area {
   padding: 50px 0;
 }
+
+/* footer area */
+#footer-area {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+#footer-area .logo {
+  width: 200px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.footer-links ul li a {
+  color: rgb(138, 137, 137);
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+#footer-area .copyright {
+  background-color: #88959e;
+}
+
+#footer-area .copyright i.rocket {
+  font-size: 40px;
+  transform: rotate(-90deg);
+}
+
+#footer-area .copyright p i,
+#footer-area .copyright p i a {
+  color: #d6d6d6;
+  text-decoration: none;
+}
