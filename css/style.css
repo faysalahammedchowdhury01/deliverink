@@ -281,6 +281,13 @@ input:checked + .slider:before {
 
 .product {
   max-width: 200px;
+  margin: auto;
+}
+
+@media (min-width: 575px) {
+  .product {
+    margin-left: 0;
+  }
 }
 
 .product .img-box {
@@ -342,6 +349,12 @@ input:checked + .slider:before {
 #footer-area .copyright i.rocket {
   font-size: 40px;
   transform: rotate(-90deg);
+}
+
+@media (max-width: 575px) {
+  #footer-area .copyright i.rocket {
+    font-size: 20px;
+  }
 }
 
 #footer-area .copyright p i,
