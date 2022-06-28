@@ -82,6 +82,10 @@ p {
   font-weight: bold;
 }
 
+.section-heading p {
+  font-size: 20px;
+}
+
 /* header top */
 .header-top {
   background-color: #e60e8b;
@@ -293,4 +297,10 @@ input:checked + .slider:before {
 
 .product p {
   color: #9ea0a1;
+}
+
+/* about area */
+#about-area {
+  padding: 50px 0;
+  background-color: #e6e6e6;
 }
