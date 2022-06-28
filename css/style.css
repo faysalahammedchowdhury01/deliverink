@@ -18,6 +18,70 @@ p {
   margin-bottom: 0;
 }
 
+.search-form .form-box {
+  border-color: #d6d6d6 !important;
+  overflow-x: hidden !important;
+}
+
+.search-form .fa-search {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  color: #56a9df;
+}
+
+.v-line {
+  position: relative;
+}
+
+.v-line::after {
+  content: "";
+  position: absolute;
+  background-color: #e60e8b;
+  height: 100%;
+  width: 2px;
+  display: inline-block;
+}
+
+.button {
+  background-color: #56a9df;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.color-block .col {
+  height: 60px;
+}
+
+.color-block-line .col {
+  height: 10px;
+}
+
+.color-block .color-block-1,
+.color-block-line .color-block-line-1 {
+  background-color: #231f20;
+}
+
+.color-block .color-block-2,
+.color-block-line .color-block-line-2 {
+  background-color: #56a9df;
+}
+
+.color-block .color-block-3,
+.color-block-line .color-block-line-3 {
+  background-color: #e60e8b;
+}
+
+.color-block .color-block-4,
+.color-block-line .color-block-line-4 {
+  background-color: #f3e925;
+}
+
+.section-heading .heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 /* header top */
 .header-top {
   background-color: #e60e8b;
@@ -76,36 +140,6 @@ input:checked + .slider:before {
 /* navbar */
 .logo {
   width: 300px;
-}
-
-.search-form .form-box {
-  border-color: #d6d6d6 !important;
-  overflow-x: hidden !important;
-}
-
-.search-form .fa-search {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  color: #56a9df;
-}
-
-.v-line {
-  position: relative;
-}
-
-.v-line::after {
-  content: "";
-  position: absolute;
-  background-color: #e60e8b;
-  height: 100%;
-  width: 2px;
-  display: inline-block;
-}
-
-.search-form button {
-  background-color: #56a9df;
-  color: #ffffff;
-  font-size: 22px;
 }
 
 /* nav right */
@@ -234,30 +268,29 @@ input:checked + .slider:before {
   font-size: 70px;
 }
 
-.color-block .col {
-  height: 60px;
+/* best sellers area, featured area, special offers area */
+#best-sellers-area,
+#featured-area,
+#special-offers-area {
+  padding: 40px 0;
 }
 
-.color-block-line .col {
-  height: 10px;
+.product {
+  max-width: 200px;
 }
 
-.color-block .color-block-1,
-.color-block-line .color-block-line-1 {
-  background-color: #231f20;
+.product .img-box {
+  width: 200px;
+  height: 200px;
+  background-color: #f4f4f4;
 }
 
-.color-block .color-block-2,
-.color-block-line .color-block-line-2 {
-  background-color: #56a9df;
+.product h4 {
+  color: #4a4f54;
+  font-size: 22px;
+  font-weight: 500;
 }
 
-.color-block .color-block-3,
-.color-block-line .color-block-line-3 {
-  background-color: #e60e8b;
-}
-
-.color-block .color-block-4,
-.color-block-line .color-block-line-4 {
-  background-color: #f3e925;
+.product p {
+  color: #9ea0a1;
 }
