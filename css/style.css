@@ -78,12 +78,12 @@ input:checked + .slider:before {
   width: 300px;
 }
 
-.navbar-search-form .form-box {
+.search-form .form-box {
   border-color: #d6d6d6 !important;
   overflow-x: hidden !important;
 }
 
-.navbar-search-form .fa-search {
+.search-form .fa-search {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   color: #56a9df;
@@ -102,7 +102,7 @@ input:checked + .slider:before {
   display: inline-block;
 }
 
-.navbar-search-form button {
+.search-form button {
   background-color: #56a9df;
   color: #ffffff;
   font-size: 22px;
@@ -193,4 +193,71 @@ input:checked + .slider:before {
 .brands a img {
   width: 120px;
   margin: auto;
+}
+
+/* finder area */
+#finder-area {
+  background: url("../images/printer-bg.jpg");
+  background-size: conver;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur;
+}
+
+.deliverink-form-card {
+  background-color: #ffffff;
+  box-shadow: 0 0 15px #000;
+  position: relative;
+}
+
+.deliverink-now-form select {
+  margin: 5px 0;
+  border: 2px solid #cccccc;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+
+.deliverink-now-form button {
+  background-color: #56a9df;
+  color: #ffffff;
+  text-align: center;
+  border: 0;
+}
+
+.deliverink-form-icon {
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  color: #f3e925;
+  font-size: 70px;
+}
+
+.color-block .col {
+  height: 60px;
+}
+
+.color-block-line .col {
+  height: 10px;
+}
+
+.color-block .color-block-1,
+.color-block-line .color-block-line-1 {
+  background-color: #231f20;
+}
+
+.color-block .color-block-2,
+.color-block-line .color-block-line-2 {
+  background-color: #56a9df;
+}
+
+.color-block .color-block-3,
+.color-block-line .color-block-line-3 {
+  background-color: #e60e8b;
+}
+
+.color-block .color-block-4,
+.color-block-line .color-block-line-4 {
+  background-color: #f3e925;
 }
