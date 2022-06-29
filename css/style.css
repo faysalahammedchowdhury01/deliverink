@@ -1,5 +1,6 @@
 /* global */
-body {
+body,
+html {
   overflow-x: hidden !important;
 }
 
@@ -21,6 +22,10 @@ p {
 .search-form .form-box {
   border-color: #d6d6d6 !important;
   overflow-x: hidden !important;
+}
+
+.search-form input {
+  width: 20px;
 }
 
 .search-form .fa-search {
@@ -192,6 +197,18 @@ input:checked + .slider:before {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 1px;
+}
+
+@media (max-width: 991px) {
+  .nav-links {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .nav-links .nav-item {
